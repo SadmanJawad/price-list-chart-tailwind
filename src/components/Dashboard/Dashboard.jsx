@@ -21,6 +21,7 @@ const Dashboard = () => {
 
     return (
         <div className='mt-10'>
+            <h1 className='text-center font-extrabold text-4xl text-purple-950'>Students Number Chart practice</h1>
             <LineChart
             width={1000}
             height={300}

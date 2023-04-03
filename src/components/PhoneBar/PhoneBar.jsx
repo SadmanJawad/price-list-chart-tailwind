@@ -31,6 +31,7 @@ const PhoneBar = () => {
     },[])
     return (
         <div>
+            <h1 className='text-center font-extrabold text-4xl text-purple-950 mt-5 underline'>Phone price chart</h1>
             <BarChart width={1000} height={500} data={phones}>
             <Bar dataKey="price" fill="#8884d8" />
             <XAxis dataKey='name'></XAxis>
